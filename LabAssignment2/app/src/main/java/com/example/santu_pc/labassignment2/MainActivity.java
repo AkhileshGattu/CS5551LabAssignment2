@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
     private GoogleApiClient client;
 
     public void login(View view) {
-        Intent intent = new Intent(MainActivity.this, LocationServices.class);
+        Intent intent = new Intent(MainActivity.this, Textconversiontospeech.class);
         EditText editText1 = (EditText) findViewById(R.id.UserName);
         EditText editText2 = (EditText) findViewById(R.id.Password);
         String userName = editText1.getText().toString();
